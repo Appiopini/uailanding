@@ -1,0 +1,13 @@
+.fotter-rectangle{
+  position: absolute;
+  left: calc(-50vw + 50%);
+  width: 100vw;
+  margin-top: auto;
+  height: 90px;
+  background-color: #ba181b;
+  z-index: -1;
+}
+
+.footer-body {
+  position: relative;
+}

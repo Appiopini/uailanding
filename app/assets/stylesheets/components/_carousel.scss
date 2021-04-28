@@ -1,0 +1,11 @@
+.carousel {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+}
+
+.carousel-control-next,
+.carousel-control-prev,
+.carousel-indicators {
+    filter: invert(100%);
+}
