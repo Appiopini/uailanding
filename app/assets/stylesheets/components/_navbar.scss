@@ -1,0 +1,80 @@
+// .navbar-lewagon {
+//   justify-content: space-between;
+//   background: white;
+// }
+
+// .navbar-lewagon .navbar-collapse {
+//   flex-grow: 0;
+// }
+
+// .navbar-lewagon .navbar-brand img {
+//   width: 40px;
+// }
+.nav-rectangle {
+  position: absolute;
+  left: calc(-50vw + 50%);
+  width: 100vw;
+  margin-top: auto;
+  height: 60px;
+  background-color: #ba181b;
+  z-index: -100;
+}
+
+.navbar-uaiaperitivos {
+  margin-top: 10px;
+  justify-content: space-between;
+  // background: #e9ecef;
+  // background-color: white;
+  // background-image: linear-gradient(to bottom, rgba(247,127,0,0.5) 0%,rgba(247,127,0,0.5) 50%), url("background-01.png");
+  // background-image: linear-gradient(to bottom, rgba(247,127,0,0.5) 0%,rgba(247,127,0,0.5) 50%);
+  height: 150px;
+  background-repeat: no-repeat;
+  position: sticky;
+}
+
+.nav-link {
+  color: black;
+}
+.nav-pills > li > a {
+  color: black !important;
+}
+
+.nav-pills > li > a:hover {
+  color: #ba181b !important;
+}
+
+.nav-pills > li > a.active {
+  background-color: #f77f00 !important;
+  color: #ba181b !important;
+}
+
+
+.navbar-uaiaperitivos .navbar-collapse {
+  flex-grow: 0;
+}
+
+
+.navbar-uaiaperitivos .navbar-brand img {
+  width: 130px;
+}
+
+.nav-item {
+  padding-right: 4px;
+}
+
+.body {
+  margin: 0;
+  font-family: "Work Sans", "Helvetica", "sans-serif";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #0E0000;
+  text-align: left;
+  // background-color: #e8e8e8;
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 50%), url("background-01.png");
+
+}
+
+
+
+
